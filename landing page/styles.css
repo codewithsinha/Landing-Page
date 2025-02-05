@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    line-height: 1.4;
+    font-weight: 300;
+}
+
+.hero_section {
+    background-image: url(images/img1.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text_container {
+    color: rgb(254, 254, 254);
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 350px;
+
+    text-align: end;
+}
+
+.lg_text {
+    font-size: 45px;
+    font-family: sans-serif;
+    font-weight: 400px;
+    background-color: rgb(50, 32, 191);
+    word-spacing: 5px;
+}
+
+.small_text {
+    font-size: 35px;
+    font-weight: 200;
+    width: 4px;
+    letter-spacing: 1px;
+}
+
+.black_box {
+    background-color: rgb(140, 182, 244);
+    padding: 90px;
+}
+
+.black_box h1 {
+    font-weight: 400px;
+    font-size: 50px;
+    color: rgb(43, 0, 81);
+    text-align: center;
+    word-spacing: 4px;
+
+}
+
+.black_box h1 span {
+    font-weight: 400px;
+    font-size: 96px;
+}
+
+.work {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    background-color: rgb(197, 202, 255);
+    margin: 5px 0;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 3px 5px 5px black;
+    transition: 1 ease-in-out;
+}
+
+.card {
+    max-width: 320px;
+    height: 400px;
+    border-radius: 20px;
+    box-shadow: 3px 5px 5px black;
+    transition: 1 ease-in-out;
+
+}
+
+.grid_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    padding: 20px;
+
+}
+
+.content h2 {
+    margin-bottom: 15px;
+
+}
+
+.bottom_section {
+    display: flex;
+    align-items: 50%;
+    text-align: center;
+    flex: 1;
+    border: 1px solid #ccc;
+  
+
+}
+
+.contact {
+    background-color: rgb(42, 5, 74);
+
+
+}
+
+.maillink {
+
+    color: rgb(221, 169, 100);
+}
+
+.about {
+    background-color: rgb(42, 5, 74);
+
+
+}
+
+.contact,
+.about {
+    min-height: 200px;
+    padding: 32px;
+    color: antiquewhite;
+
+}
+
+.contact p,
+.about p {
+    margin-bottom: 10px;
+    color: antiquewhite;
+
+}
+
+.contact p h2,
+.about p h2 {
+    font-size: 99px;
+    font-weight: 300;
+    color: antiquewhite;
+}
+
+
+
+
+
+
+hr {
+    width: 10px;
+}
